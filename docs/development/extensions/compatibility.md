@@ -14,7 +14,7 @@ Once projects exist using your extension, it is critical that you do not change 
   getInfo() {
     return {
       // highlight-start
-      // 别动，不然用你扩展的作品就全坠机了！！！
+      // 别动，不然用你扩展的作品就全坏了！！！
       id: 'fetch'
       // highlight-end
       // ...
@@ -56,7 +56,7 @@ Instead, create a new block and mark the old one as `hideFromPalette: true`.
       // ...
       blocks: [
         // highlight-start
-        // 别删，不然用这个积木的作品就全坠机了！！！
+        // 别删，不然用这个积木的作品就全坏了！！！
         {
           opcode: "old",
           hideFromPalette: true
